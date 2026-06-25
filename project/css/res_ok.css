@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f3f7fa;
+  color: #333;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.success-container {
+  width: 100%;
+  max-width: 450px;
+  padding: 20px;
+}
+
+.success-card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 40px 30px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+}
+
+.icon-check {
+  width: 70px;
+  height: 70px;
+  background-color: #e1f5fe;
+  color: #0091ea;
+  font-size: 2rem;
+  font-weight: bold;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 24px auto;
+}
+
+.success-title {
+  font-size: 1.8rem;
+  color: #0a2540;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.success-message {
+  font-size: 0.95rem;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.info-box {
+  background-color: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.info-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.info-item:not(:last-child) {
+  border-bottom: 1px dashed #e2e8f0;
+}
+
+.info-label {
+  font-size: 0.95rem;
+  color: #777;
+  font-weight: 500;
+}
+
+.info-value {
+  font-size: 1rem;
+  color: #111;
+  font-weight: 600;
+}
+
+.status-text {
+  color: #0091ea;
+}
+
+.btn-home {
+  width: 100%;
+  background-color: #0091ea;
+  color: #ffffff;
+  border: none;
+  padding: 18px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 6px 20px rgba(0, 145, 234, 0.2);
+  transition: background-color 0.2s ease;
+}
+
+.btn-home:hover {
+  background-color: #007bc7;
+}

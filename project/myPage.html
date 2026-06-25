@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>마이페이지</title>
+    <link rel="stylesheet" href="css/myPage.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-container">
+        <button class="book-again-btn">다시 예약하기</button>
+      </div>
+    </header>
+
+    <main class="dashboard-container">
+      <div class="profile-section">
+        <div class="profile-avatar">
+          <img src="img/profile.png" alt="프로필" class="icon-img-user" />
+        </div>
+        <h1 class="dashboard-title">내 계정 대시보드</h1>
+      </div>
+
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-icon icon-blue">
+            <i class="fa-regular fa-clock"></i>
+          </div>
+          <div class="stat-info">
+            <span class="stat-label">예약 완료수:</span>
+            <span class="stat-value">0</span>
+          </div>
+        </div>
+
+        <div class="stat-card">
+          <div class="stat-icon icon-lightblue">
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <div class="stat-info">
+            <span class="stat-label">적립금:</span>
+            <span class="stat-value">0P</span>
+          </div>
+        </div>
+
+        <div class="stat-card">
+          <div class="stat-icon icon-darkblue">
+            <i class="fa-solid fa-trophy"></i>
+          </div>
+          <div class="stat-info">
+            <span class="stat-label">등급 :</span>
+            <span class="stat-value value-bold">실버</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="history-card">
+        <table class="history-table">
+          <tbody>
+            <tr>
+              <td class="date-col">2026년 5월 15일</td>
+              <td class="title-col">예약 내역 1</td>
+              <td class="status-col status-success">성공</td>
+            </tr>
+            <tr>
+              <td class="date-col">2026년 5월 17일</td>
+              <td class="title-col">예약 내역 2</td>
+              <td class="status-col status-remplete">완료</td>
+            </tr>
+            <tr>
+              <td class="date-col">2026년 5월 10일</td>
+              <td class="title-col">예약 내역 3</td>
+              <td class="status-col status-success">성공</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+  </body>
+</html>
