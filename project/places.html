@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>숙소 및 캠핑장 선택</title>
+    <link rel="stylesheet" href="css/place.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>어디로 떠나시나요?</h2>
+      <p class="subtitle">
+        원하는 장소를 선택하시면 가격을 확인하고 예약할 수 있습니다.
+      </p>
+
+      <form action="res.html" method="GET" id="reservation-form">
+        <input
+          type="radio"
+          name="place"
+          id="place1"
+          value="luxury_hotel"
+          checked
+        />
+        <input type="radio" name="place" id="place2" value="forest_camping" />
+        <input type="radio" name="place" id="place3" value="city_resort" />
+        <input type="radio" name="place" id="place4" value="river_camping" />
+
+        <div class="grid-container">
+          <label for="place1" class="card card1">
+            <div class="card-content">
+              <div class="badge hotel">호텔</div>
+              <h3>그랜드 오션 호텔</h3>
+              <p class="location">📍 부산 해운대</p>
+              <p class="price">150,000원 / 박</p>
+            </div>
+          </label>
+
+          <label for="place2" class="card card2">
+            <div class="card-content">
+              <div class="badge camping">캠핑장</div>
+              <h3>솔향기 글램핑장</h3>
+              <p class="location">📍 강원도 홍천</p>
+              <p class="price">60,000원 / 박</p>
+            </div>
+          </label>
+
+          <label for="place3" class="card card3">
+            <div class="card-content">
+              <div class="badge hotel">리조트</div>
+              <h3>서울 시티 스카이 리조트</h3>
+              <p class="location">📍 서울 남산</p>
+              <p class="price">220,000원 / 박</p>
+            </div>
+          </label>
+
+          <label for="place4" class="card card4">
+            <div class="card-content">
+              <div class="badge camping">캠핑장</div>
+              <h3>별빛 강변 차박 캠핑장</h3>
+              <p class="location">📍 경기도 가평</p>
+              <p class="price">45,000원 / 박</p>
+            </div>
+          </label>
+        </div>
+
+        <div class="footer-bar">
+          <div class="total-price-box">
+            <span>선택한 숙소 금액:</span>
+            <strong class="total-price"></strong>
+          </div>
+          <button type="submit" class="submit-btn">
+            선택 완료 및 다음 단계
+          </button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
